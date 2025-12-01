@@ -101,10 +101,3 @@ def funda_scrape(url):
 
     return results
 
-# --- VOORBEELD ---
-if __name__ == "__main__":
-    url = "https://www.funda.nl/zoeken/koop?custom_area=yqiZ%257Df_%257CHoXrDvn%2540pa%2540zRqHci%2540s%255D"
-    data = funda_scrape(url)
-
-    for d in data:
-        print(d)
